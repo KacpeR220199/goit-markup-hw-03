@@ -40,10 +40,6 @@ background-color: #404bbf;
 color: #ffffff;
 
 }
-.contacts:hover,
-.contacts:focus{
-
-}
 .service{
     background-color:#4d5ae5 ;
     font-family: "Roboto",sans-serif;
@@ -241,4 +237,7 @@ color: #2e2f42;
 }
 .filter-list{
     margin-left: 24px;
+}
+.img{
+    display: block;
 }
