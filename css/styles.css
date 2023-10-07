@@ -78,6 +78,7 @@ color: #ffffff;
     letter-spacing:0.03em;
     text-transform: uppercase;
     color:var(--logo-color);
+    
 }
 .accent{
     color:var(--span-color);
@@ -85,9 +86,12 @@ color: #ffffff;
 }
 .list{
     list-style:none;
+    display: flex;
+    gap: 40px;
 }
 .link{
     text-decoration: none;
+    padding: 24px 0;
 }
 .-link{
     text-decoration: none;
@@ -229,7 +233,9 @@ color: #2e2f42;
 }
 .container{
  width: 1158px;
- display: inline;
+ display: flex;
+ margin: 0 auto;
+ padding: 0 15px;
 }
 .section{
     padding-top: 120px;
@@ -240,4 +246,18 @@ color: #2e2f42;
 }
 .img{
     display: block;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.logos{
+    margin-right: 76px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
 }
