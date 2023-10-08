@@ -33,11 +33,14 @@ body{
     padding: 12px 24px;
     margin-right: 24px;
     display: inline;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 .filter-all:hover,
 .filter-all:focus{
 background-color: #404bbf;
 color: #ffffff;
+border: 1px solid transparent;
 
 }
 .service{
@@ -84,7 +87,7 @@ color: #ffffff;
     letter-spacing:0.03em;
     text-transform: uppercase;
     color:var(--logo-color);
-    margin-right: 76pxa;
+    margin-right: 76px;
     display: inline-block;
     margin-bottom:16px;
 }
@@ -97,6 +100,9 @@ color: #ffffff;
     list-style:none;
     display: flex;
     gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 .link{
     text-decoration: none;
@@ -237,7 +243,7 @@ margin-bottom: 72px;
 }
 .first-point{
     background-color: #ffffff;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .footer{
@@ -265,6 +271,10 @@ margin-bottom: 72px;
 }
 .filter-list{
     margin-left: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 .img{
     display: block;
@@ -314,5 +324,25 @@ margin-bottom: 72px;
     text-align: center;
 }
 .heading-next-section{
+    margin-bottom: 8px;
+}
+.next-section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+
+}
+.next-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.next-link{
+    width:calc((100% - 48px)/3)
+}
+.ads-div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     margin-bottom: 8px;
 }
