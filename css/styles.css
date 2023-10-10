@@ -51,6 +51,11 @@ border: 1px solid transparent;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    word-wrap: break-word;
+    padding: 16px 32px;
+    gap: 10px;
+    margin-top: 48px;
+    margin: 0 auto;
     cursor: pointer;
     display: block;
     min-width: 169px;
@@ -167,6 +172,7 @@ border: 1px solid transparent;
 .first-section{
     background-color: #2e2f42;
     padding:188px 0;
+    text-align: center;
 }
 .coments{
     color: #ffffff;
@@ -175,6 +181,7 @@ border: 1px solid transparent;
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
 }
 .next-section{
     list-style: none;
@@ -258,10 +265,10 @@ margin-bottom: 72px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin: 0;
 }
 .container{
  width: 1158px;
- display: flex;
  margin: 0 auto;
  padding: 0 15px;
 }
@@ -285,6 +292,7 @@ margin-bottom: 72px;
 .navigation{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .menu{
     display: flex;
@@ -300,6 +308,7 @@ margin-bottom: 72px;
     width: 1px;
 }
 .first{
+    display: flex;
     gap: 24px;
 }
 .first-point-section{
@@ -345,4 +354,17 @@ margin-bottom: 72px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
 }
