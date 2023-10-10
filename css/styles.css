@@ -294,7 +294,7 @@ img {
     gap: 24px;
 }
 .first-point-section{
-    width:calc((100% - 3 * 24px) / 4)
+    width:calc((100% - 3 * 24px) / 4);
 }
 .next-next-section{
     padding-bottom:120px ;
