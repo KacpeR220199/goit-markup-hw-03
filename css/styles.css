@@ -304,8 +304,7 @@ img {
     gap: 24px;
 }
 .container-employee{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0px;
 }
 .heading-employee{
     text-align: center;
@@ -376,4 +375,7 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+.first-point-last-section{
+    border-radius: 0px 0px 4px 4px;
 }
