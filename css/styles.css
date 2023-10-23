@@ -93,6 +93,7 @@ border: 1px solid transparent;
     color:var(--logo-color);
     margin-right: 76px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 .accent{
     color:var(--span-color);
