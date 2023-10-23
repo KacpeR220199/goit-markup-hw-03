@@ -108,7 +108,7 @@ border: 1px solid transparent;
 }
 .link{
     text-decoration: none;
-    padding: 24px 0;
+    
 }
 .-link{
     text-decoration: none;
@@ -124,6 +124,7 @@ border: 1px solid transparent;
     line-height:1.5;
     letter-spacing: 0.02em;
     color:var(--link-studio-color);
+    padding: 24px 0;
 }
 ._link-studio{
     text-decoration: none;
