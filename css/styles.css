@@ -169,6 +169,7 @@ border: 1px solid transparent;
     background-color: #2e2f42;
     padding:188px 0;
     text-align: center;
+    justify-content: center;
     background-image: url(/images/people-office.jpg);
     max-width: 1440px;
 }
